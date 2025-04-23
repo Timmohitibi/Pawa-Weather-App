@@ -1,5 +1,0 @@
-flowchart LR
-  A[Next.js Frontend] -->|Fetch API| B[Laravel Backend]
-  B -->|HTTP Client| C[OpenWeatherMap API]
-  C -->|JSON Response| B
-  B -->|JSON Response| A
