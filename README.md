@@ -23,4 +23,4 @@ Open the app at http://localhost:3000, enter a city, and view its weather data.
 
 The backend uses OpenWeather API to fetch weather data.
 
-<img src="./public/pawa weather app.png" alt="App Preview" width="500" />
+<img src="public/pawa weather appp.png" alt="App Preview" width="500" />
