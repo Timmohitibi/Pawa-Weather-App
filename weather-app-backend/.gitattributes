@@ -9,3 +9,16 @@
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
+
+# Exclude vendor folder (contains mostly PHP dependencies)
+vendor/* linguist-vendored
+
+# Exclude specific files (e.g., CSS/JS if you want another language to dominate)
+public/css/* linguist-vendored
+public/js/* linguist-vendored
+
+# Force a file type (e.g., treat .blade.php as HTML)
+*.blade.php linguist-language=HTML
+
+node_modules/* linguist-vendored
+vendor/* linguist-vendored
